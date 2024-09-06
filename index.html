@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="shortcut icon" href="Logo-Netflix-Png.webp" type="image/x-icon">
+    <style>
+        body {
+            font-family: "Bebas Neue", system-ui;
+            text-align: center;  
+            background-image: url(cartoes-netflix.jpg);
+        }
+        #oi, #hi {
+            width: 200px;
+            height: 50px;
+            background-color: red;
+            color: white;
+        }
+        #hi {
+            background-color: transparent;
+        }
+        main {
+            background-color: rgba(0, 0, 0, 0.6);
+            border-radius: 1px;
+            width: 400px;
+            margin: auto;
+            padding: 8px;
+            font-weight: bold;
+            box-shadow: 5px 5px black;
+        }
+        h1, h2, p {
+            margin: 0;
+        }
+        h1 {
+            color: red;
+            font-size: 50px;
+            text-align: left;
+            text-shadow: 2px 2px black;
+        }
+        h2, p {
+            color: white;
+            text-align: left;
+        }
+        p {
+            font-size: 16px;
+        }
+        #ws {
+            color: rgba(255, 255, 255, 0.4);
+        }
+        #op {
+            font-weight: bold;
+            text-align: right;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>NETFLIX</h1>
+    <main>
+        <form>
+            <h2>Entrar</h2>
+            <p>EMAIL: <input type="text"></p>
+            <p>SENHA: <input type="password"></p>
+            <p><input type="submit" value="Entrar" id="oi"></p>
+            <p>OU</p>
+            <p><input type="submit" value="Usar um código de acesso" id="hi"></p>
+        </form>
+        <p>Esqueceu a senha?</p>
+        <p>Lembre-se de mim☑️</p>
+        <p>Novo por aqui? Assine agora</p>
+        <p id="ws">Esta página é protegida pelo Google reCAPTCHA.</p>
+    </main>
+    <footer id="op">Site criado por Pietro Cruz</footer>
+</body>
+</html>
